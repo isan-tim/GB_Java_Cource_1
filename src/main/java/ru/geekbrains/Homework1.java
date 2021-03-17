@@ -75,26 +75,40 @@ package ru.geekbrains;
 
 // * Задание 5. Написать метод, которому в качестве параметра передается целое число, метод должен напечатать в консоль, положительное ли число передали или отрицательное. Замечание: ноль считаем положительным числом.
 // */
+//public class Homework1 {
+//    public static void main (String [] args)
+//    {
+//        // Выводим результат
+//        int number = 10;
+//        printNegativeOrPositive (number);
+//    }
+//    public static void printNegativeOrPositive (int number)
+//    {
+//        int sum = a + b;
+//        boolean res = sum > 10 && sum <= 20;
+//        return res;
+//        if (number >= 0)
+//        {
+//            System.out.println(number+ " положительное число");
+//        }
+//        else
+//        {
+//            System.out.println(number+ " отрицательное число");
+//        }
+//
+//    }
+//}
+
+// * Задание 6. Написать метод, которому в качестве параметра передается целое число. Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
+// */
 public class Homework1 {
     public static void main (String [] args)
     {
         // Выводим результат
         int number = 10;
-        printNegativeOrPositive (number);
     }
-    public static void printNegativeOrPositive (int number)
+    public static boolean isNegative (int number)
     {
-        int sum = a + b;
-        boolean res = sum > 10 && sum <= 20;
-        return res;
-        if (number >= 0)
-        {
-            System.out.println(number+ " положительное число");
-        }
-        else
-        {
-            System.out.println(number+ " отрицательное число");
-        }
-
+        return number < 0;
     }
 }
