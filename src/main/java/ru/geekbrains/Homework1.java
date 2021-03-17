@@ -34,23 +34,41 @@ package ru.geekbrains;
 // * Задание №3. Написать метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
 // * где a, b, c, d – аргументы этого метода, имеющие тип float.
 // */
+//public class Homework1 {
+//    public static void main (String [] args)
+//    {
+//// Объявляем 4 переменные с плавающей точкой типа float
+//        float a = 1.8f;
+//        float b = 2.0f;
+//        float c = 4.01f;
+//        float d = 5f;
+//        float expressionResult = calculateExpression(a,b,c,d);
+//// Выводим результат вычислений
+//        System.out.println("Результат вычислений: " +expressionResult);
+//    }
+//    /*
+//     * Метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат, где a, b, c, d – аргументы этого метода, имеющие тип float.
+//     */
+//    public static float calculateExpression (float a, float b, float c, float d)
+//    {
+//        return a * (b + (c / d));
+//    }
+//}
+
+// *   Задание №4. Написать метод, принимающий на вход два целых числа и проверяющий, что их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
+// */
 public class Homework1 {
     public static void main (String [] args)
     {
-// Объявляем 4 переменные с плавающей точкой типа float
-        float a = 1.8f;
-        float b = 2.0f;
-        float c = 4.01f;
-        float d = 5f;
-        float expressionResult = calculateExpression(a,b,c,d);
-// Выводим результат вычислений
-        System.out.println("Результат вычислений: " +expressionResult);
+        // Выводим результат
+        System.out.println(isSumBetween10And20(9,10));
+        System.out.println(isSumBetween10And20(11,10));
+        System.out.println(isSumBetween10And20(11,10));
     }
-    /*
-     * Метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат, где a, b, c, d – аргументы этого метода, имеющие тип float.
-     */
-    public static float calculateExpression (float a, float b, float c, float d)
+    public static boolean isSumBetween10And20 (int a, int b)
     {
-        return a * (b + (c / d));
+        int sum = a + b;
+        boolean res = sum > 10 && sum <= 20;
+        return res;
     }
 }
