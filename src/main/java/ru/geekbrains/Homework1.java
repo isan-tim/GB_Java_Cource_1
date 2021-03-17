@@ -57,18 +57,44 @@ package ru.geekbrains;
 
 // *   Задание №4. Написать метод, принимающий на вход два целых числа и проверяющий, что их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true, в противном случае – false.
 // */
+//public class Homework1 {
+//    public static void main (String [] args)
+//    {
+//        // Выводим результат
+//        System.out.println(isSumBetween10And20(9,10));
+//        System.out.println(isSumBetween10And20(11,10));
+//        System.out.println(isSumBetween10And20(11,10));
+//    }
+//    public static boolean isSumBetween10And20 (int a, int b)
+//    {
+//        int sum = a + b;
+//        boolean res = sum > 10 && sum <= 20;
+//        return res;
+//    }
+//}
+
+// * Задание 5. Написать метод, которому в качестве параметра передается целое число, метод должен напечатать в консоль, положительное ли число передали или отрицательное. Замечание: ноль считаем положительным числом.
+// */
 public class Homework1 {
     public static void main (String [] args)
     {
         // Выводим результат
-        System.out.println(isSumBetween10And20(9,10));
-        System.out.println(isSumBetween10And20(11,10));
-        System.out.println(isSumBetween10And20(11,10));
+        int number = 10;
+        printNegativeOrPositive (number);
     }
-    public static boolean isSumBetween10And20 (int a, int b)
+    public static void printNegativeOrPositive (int number)
     {
         int sum = a + b;
         boolean res = sum > 10 && sum <= 20;
         return res;
+        if (number >= 0)
+        {
+            System.out.println(number+ " положительное число");
+        }
+        else
+        {
+            System.out.println(number+ " отрицательное число");
+        }
+
     }
 }
