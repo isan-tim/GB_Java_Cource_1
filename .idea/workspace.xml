@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bb52a13-06db-45d2-9832-59df30bc542c" name="Default Changelist" comment="Создан проект домашнего задания №1">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../gb_cource_1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/GB_Cource_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GeekBrains_Cource_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gb_cource_1/src/main/java/ru/geekbrains/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gb_cource_1/src/main/java/ru/geekbrains/Homework1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ps3YuWTuRdhAhS5iHcoJLD9WUV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,7 +33,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Homework1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.Homework1" />
+      <module name="GeekBrains_Cource_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615958021985</updated>
     </task>
+    <task id="LOCAL-00001" summary="Создан проект домашнего задания №1">
+      <created>1615958608177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615958608177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
