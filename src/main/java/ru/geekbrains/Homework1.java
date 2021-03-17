@@ -101,14 +101,31 @@ package ru.geekbrains;
 
 // * Задание 6. Написать метод, которому в качестве параметра передается целое число. Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.
 // */
+//public class Homework1 {
+//    public static void main (String [] args)
+//    {
+//        // Выводим результат
+//        int number = 10;
+//    }
+//    public static boolean isNegative (int number)
+//    {
+//        return number < 0;
+//    }
+//}
+
+// * Задание 7. Написать метод, которому в качестве параметра передается строка, обозначающая имя.
+// * Метод должен вывести в консоль сообщение «Привет, указанное_имя!».
+// */
 public class Homework1 {
     public static void main (String [] args)
     {
         // Выводим результат
-        int number = 10;
+        String name = "Jack";
+        printName (name);
     }
-    public static boolean isNegative (int number)
+    public static void printName (String name)
     {
         return number < 0;
+        System.out.println("Привет " + name + "!");
     }
 }
