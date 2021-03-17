@@ -116,16 +116,42 @@ package ru.geekbrains;
 // * Задание 7. Написать метод, которому в качестве параметра передается строка, обозначающая имя.
 // * Метод должен вывести в консоль сообщение «Привет, указанное_имя!».
 // */
+//public class Homework1 {
+//    public static void main (String [] args)
+//    {
+//        // Выводим результат
+//        String name = "Jack";
+//        printName (name);
+//    }
+//    public static void printName (String name)
+//    {
+//        return number < 0;
+//        System.out.println("Привет " + name + "!");
+//    }
+//}
+
+/*
+ * Задание 8. Написать метод, который определяет, является ли год високосным, и выводит сообщение в консоль. Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.
+ */
 public class Homework1 {
     public static void main (String [] args)
     {
-        // Выводим результат
-        String name = "Jack";
-        printName (name);
+        int year = 2001;
+        printIfYearIsLeapOrNot(year);
     }
-    public static void printName (String name)
+    public static void printIfYearIsLeapOrNot (int year)
     {
-        return number < 0;
-        System.out.println("Привет " + name + "!");
+        if (year % 4 == 0 && year % 100 != 0)
+        {
+            System.out.println(year + " год является високосным.");
+        }
+        else if (year % 400 == 0)
+        {
+            System.out.println(year + " год является високосным.");
+        }
+        else
+        {
+            System.out.println(year + " год является не високосным.");
+        }
     }
 }

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bb52a13-06db-45d2-9832-59df30bc542c" name="Default Changelist" comment="Выполнено задание 3">
+    <list default="true" id="9bb52a13-06db-45d2-9832-59df30bc542c" name="Default Changelist" comment="Выполнено задание 7">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/geekbrains/Homework1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +107,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615959834992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Выполнено задание 4">
+      <created>1615959909118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615959909118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Выполнено задание 4">
+      <created>1615960031555</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615960031555</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Выполнено задание 6">
+      <created>1615960109388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615960109388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Выполнено задание 7">
+      <created>1615960157392</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615960157392</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +154,9 @@
     <MESSAGE value="Выполнено задание 1" />
     <MESSAGE value="Выполнено задание 2" />
     <MESSAGE value="Выполнено задание 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнено задание 3" />
+    <MESSAGE value="Выполнено задание 4" />
+    <MESSAGE value="Выполнено задание 6" />
+    <MESSAGE value="Выполнено задание 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнено задание 7" />
   </component>
 </project>
